@@ -7,6 +7,42 @@
   pointer-events: none;
 }
 
+.notes-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.notes-form > input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.notes-form > textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.card {
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 0 8px;
+}
+
+.notes {
+  width: 90%;
+  margin: 25px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  gap: 15px;
+}
+
+.form-div {
+  padding: 15px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
